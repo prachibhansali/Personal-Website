@@ -1,0 +1,134 @@
+#outercircle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: transparent;
+  -moz-border-radius: 300px;
+  -webkit-border-radius: 300px;
+  border-radius: 300px;
+  z-index: -1;
+  box-shadow: 100px 40px 0 0 skyblue;
+}
+
+.bird {
+  position: relative;
+}
+
+.birdbody {
+  width: 300px;
+  height: 300px;
+}
+
+#overlapcircle {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: -100px;
+  left: 130px;
+  -webkit-border-radius: 150px;
+  background: white;
+  border-radius: 150px;
+  z-index: 15;
+}
+
+.betnwings {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 190px;
+  left: 250px;
+  background: skyblue;
+  z-index: 10;
+}
+
+.wings {
+  position: absolute;
+  top: 190px;
+  left: 170px;
+  z-index: -1;
+}
+
+.wingsin {
+  position: relative;
+}
+
+#innercircle {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+#wingmid {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  top: -25px;
+  left: -10px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  box-shadow: -30px 0 0 0 white;
+}
+
+#wingtop {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  top: -50px;
+  left: -10px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  box-shadow: -30px -10px 0 0 white;
+}
+
+.face {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 1000;
+  top: 120px;
+  left: 300px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  background: skyblue;
+}
+
+.beak {
+  position: absolute;
+  left: 330px;
+  top: 60px;
+}
+
+.overlapbeak {
+  position: relative;
+}
+
+.insidebeak {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  z-index: 999;
+  background: skyblue; <!--
+  box-shadow: 20px -5px 0 0 red;
+  -->
+}
+
+.outsidebeak {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  z-index: 999;
+  top: -120px;
+  left: -50px;
+  background: white; <!--
+  box-shadow: 20px 30px 0 0 red;
+  -->
+}
