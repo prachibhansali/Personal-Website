@@ -17,18 +17,24 @@
 	position:relative;
 	max-width: 100%;
 	max-height: 100%;
-	vertical-align: middle;
 }
 
 .titleName
 {
 	position: absolute;
-	top : 50%;
+	top : 60%;
+	left: 30%;
 
 	font-size: 50px;
 	font-style: italic;
 	font-family:'Courier New';
-	color: #25383C; 
+	color: white; 
+
+}
+
+p 
+{
+  text-align:center; 
 }
 
 .buttonImage
@@ -71,4 +77,44 @@
   100% {
     bottom:0;
   }
+}
+
+.resumecontactlink
+{
+	line-height: 3em;
+    display: inline-block;
+    color: white;
+   
+    text-decoration: none;
+    border: solid 4px white;
+    text-align: center;
+    margin-right: 5px;
+    float:left;
+
+    font-size: 20px;
+	font-family:'Courier New';
+	color: white; 
+}
+
+.switchLinkColor
+{
+	background-color: white;
+	color:black;
+}
+
+.divider
+{
+	width:2%;
+	height: auto;
+	display: inline-block;
+}
+
+#resumecontact
+{
+	display:none;
+}
+
+#title
+{
+	text-align: center;
 }
