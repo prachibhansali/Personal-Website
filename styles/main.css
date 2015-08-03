@@ -5,21 +5,70 @@
 	height:100%;
 }
 
+.mainImage
+{
+
+	width:100%;
+	height:100%;
+}
+
 .header
 {
+	position:relative;
 	max-width: 100%;
 	max-height: 100%;
+	vertical-align: middle;
+}
+
+.titleName
+{
+	position: absolute;
+	top : 50%;
+
+	font-size: 50px;
+	font-style: italic;
+	font-family:'Courier New';
+	color: #25383C; 
 }
 
 .buttonImage
 {
 	position: relative;
+}
+
+.buttonCenter
+{
+	position: absolute;
+	bottom: 1%;
+
+	background-color: transparent;
+	background-repeat: no-repeat;
+	border: none;
+	outline:none;
 
 }
 
 #scrollUp
 {
-	position: absolute;
-	right: 50%;
-	top: 50%;
+
+  	-webkit-animation:bounce 1s infinite;
+}
+
+@-webkit-keyframes bounce {
+  0%{
+    bottom:5px;
+  }
+  
+  25%, 75% {
+    bottom:15px;
+  }
+  
+  
+  50% {
+    bottom:20px;
+  }
+  
+  100% {
+    bottom:0;
+  }
 }
