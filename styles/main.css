@@ -118,3 +118,27 @@ p
 {
 	text-align: center;
 }
+
+.animation-element
+{
+	position:absolute;
+}
+
+.test
+{
+	position:relative;
+	margin: 0.5%;
+}
+
+.bounce-up .test
+{
+	opacity:0;
+	-webkit-transition: all 700ms ease-out;
+	-webkit-transform: translate3d(0px,200px,0px);
+}
+
+.bounce-up.in-view .test
+{
+	opacity:1;
+	-webkit-transform:translate3d(0px,0px,0px);
+}
